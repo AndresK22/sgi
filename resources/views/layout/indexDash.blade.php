@@ -33,13 +33,13 @@
                         <li class="{{ request()->routeIs('user.*') ? 'active': '' }}"><a href="{{ route('user.index') }}">Usuarios</a></li>
                     @endrole
 
-                    <li class="{{ request()->routeIs('medicamento.*') ? 'active': '' }}"><a href="{{ route('medicamento.index') }}">Medicamentos</a></li>
-                    <li class="{{ request()->routeIs('entrada.*') ? 'active': '' }}"><a href="{{ route('entrada.create') }}">Entrada de medicamentos</a></li>
-                    <li class="{{ request()->routeIs('salida.*') ? 'active': '' }}"><a href="{{ route('salida.create') }}">Salida de medicamentos</a></li>
-                    <li class="{{ request()->routeIs('ventaDiaria.*') ? 'active': '' }}"><a href="{{ route('ventaDiaria.index') }}">Venta diaria</a></li>
+                    <li><a href="#">Medicamentos</a></li>
+                    <li><a href="#">Entrada de medicamentos</a></li>
+                    <li><a href="#">Salida de medicamentos</a></li>
+                    <li><a href="#">Venta diaria</a></li>
                     
                     @hasanyrole('administrador')
-                        <li class="{{ request()->routeIs('controlMensual.*') ? 'active': '' }}"><a href={{ route('controlMensual.index') }}>Reportes</a></li>
+                        <li class="{{ request()->routeIs('controlMensual.*') ? 'active': '' }}"><a href="#">Reportes</a></li>
                     @endhasanyrole
 
                     <form action="{{ route('logout') }}" method="POST" style="display: inline;">
@@ -58,15 +58,15 @@
         @endrole
 
         @hasanyrole('administrador|gerente')
-            <li class="{{ request()->routeIs('medicamento.*') ? 'active': '' }}"><a href="{{ route('medicamento.index') }}">Medicamentos</a></li>
+            <li><a href="#">Medicamentos</a></li>
         @endhasanyrole
 
-        <li class="{{ request()->routeIs('entrada.*') ? 'active': '' }}"><a href="{{ route('entrada.create') }}">Entrada de medicamentos</a></li>
-        <li class="{{ request()->routeIs('salida.*') ? 'active': '' }}"><a href="{{ route('salida.create') }}">Salida de medicamentos</a></li>
-        <li class="{{ request()->routeIs('ventaDiaria.*') ? 'active': '' }}"><a href="{{ route('ventaDiaria.index') }}">Venta diaria</a></li>
+        <li><a href="#">Entrada de medicamentos</a></li>
+        <li><a href="#">Salida de medicamentos</a></li>
+        <li><a href="#">Venta diaria</a></li>
         
         @hasanyrole('administrador')
-            <li class="{{ request()->routeIs('controlMensual.*') ? 'active': '' }}"><a href={{ route('controlMensual.index') }}>Reportes</a></li>
+            <li><a href="#">Reportes</a></li>
         @endhasanyrole
 
         <li><div class="divider"></div></li>
