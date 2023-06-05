@@ -20,7 +20,7 @@
 <link href="https://cdn.datatables.net/datetime/1.4.1/css/dataTables.dateTime.min.css" rel="stylesheet">
 
 <body class="d-flex flex-column h-100">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="{{ asset('img/lg.png') }}" style="max-width: 50%;max-height: 40px" alt="">
@@ -33,10 +33,13 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Demandas y tendencias</a>
+                        <a class="nav-link active" aria-current="page" href="#">Compra de medicamentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Proveedores</a>
+                        <a class="nav-link active" aria-current="page" href="#">Venta de medicamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Rotacion Stock medicamentos</a>
                     </li>
                 </ul>
                 <div class="d-flex">
