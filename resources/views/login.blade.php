@@ -1,96 +1,119 @@
 @extends('layout.index')
-@section('title','Venta de medicina')
+
+@section('title', 'SGI Farmacia Don Evelio')
 
 @section('navbar')
-<nav>
-    <div class="nav-wrapper green darken-1">
-        <a href="#!" class="brand-logo center">Venta de medicina</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        @guest
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="{{ route('login') }}">Iniciar sesion</a></li>
-        </ul>
-        @endguest
-    </div>
-</nav>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="{{ asset('img/lg.png') }}" style="max-width: 50%;max-height: 40px" alt="">
+                Farmacia Don Evelio
+            </a> 
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
-<ul class="sidenav" id="mobile-demo">
-    @guest
-        <li><a href="{{ route('login') }}">Iniciar sesion</a></li>
-    @endguest
-</ul>
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav ml-auto">
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">Iniciar sesión</a>
+                            </li>
+                        @endguest
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 @endsection
+
 
 @section('content')
 
-
-@if (session('status'))
-<div class="row">
-    <div class="col s12">
-        <div class="card light-green darken-1">
-        <div class="card-content white-text">
-            <p>{{ session('status') }}</p>
-        </div>
-    </div>
-</div>
-@endif
-
-@if (session('alert'))
-<div class="row">
-    <div class="col s12">
-        <div class="card red darken-4">
-        <div class="card-content white-text">
-            <p>{{ session('alert') }}</p>
-        </div>
-    </div>
-</div>
-@endif
-
-<div class="row white-text">
-    <p>.</p>
-    <p>.</p>
-</div>
-
-<div class="row">
-    <div class="col s12 center-align">
-        <h3>Iniciar sesi&oacute;n</h3>
-    </div>
-</div>
-
-<div class="row">
-    <form class="col s12" action="{{ route('login.login') }}" method="POST">
-        @csrf
+    @if (session('status'))
         <div class="row">
-            <div class="input-field col s12">
-                <i class="material-icons prefix">email</i>
-                <input id="email" name="email" type="email" value="{{ old('email') }}" class="validate" required>
-                <label for="email">Correo electronico</label>
-                @if ($errors->has('email'))
-                    @error('email')
-                        <span class="helper-text">{{ $message }}</span>
-                    @enderror    
-                @endif
+            <div class="col">
+                <div class="card bg-success text-white">
+                    <div class="card-body">
+                        <p>{{ session('status') }}</p>
+                    </div>
+                </div>
             </div>
         </div>
+    @endif
+
+    @if (session('alert'))
         <div class="row">
-            <div class="input-field col s12">
-                <i class="material-icons prefix">https</i>
-                <input id="password" name="password" type="password" class="validate" required>
-                <label for="password">Contrase&ntilde;a</label>
-                @if ($errors->has('password'))
-                    @error('password')
-                        <span class="helper-text">{{ $message }}</span>
-                    @enderror    
-                @endif
+            <div class="col">
+                <div class="card bg-danger text-white">
+                    <div class="card-body">
+                        <p>{{ session('alert') }}</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="input-field col s12 center-align">
-                <button class="btn waves-effect waves-light btn-large pink darken-3" type="submit" name="action">Iniciar sesion
-                </button>
+    @endif
+
+
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div class="card d-flex flex-column align">
+                <div class="card-body">
+                    <h4 class="card-title text-center mb-5"><b>Iniciar sesión</b></h4>
+
+										<form action="{{ route('login.login') }}" method="POST">
+											<!-- Email input -->
+											@csrf
+
+                        <div class="form-outline mb-5">
+                            <input id="email" name="email" type="email" value="{{ old('email') }}"
+                                class="form-control" required>
+                            <label class="form-label" for="form2Example1">Correo Electronico</label>
+                            @if ($errors->has('email'))
+                                @error('email')
+                                    <span class="helper-text">{{ $message }}</span>
+                                @enderror
+                            @endif
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-5">
+
+                            <input id="password" name="password" type="password" class="form-control" required>
+                            <label class="form-label" for="password">Contrase&ntilde;a</label>
+                            @if ($errors->has('password'))
+                                @error('password')
+                                    <span class="helper-text">{{ $message }}</span>
+                                @enderror
+                            @endif
+                        </div>
+
+                        <!-- 2 column grid layout for inline styling -->
+                        <div class="row mb-1">
+                            <div class="col d-flex justify-content-center">
+
+                            </div>
+                        </div>
+
+                        <!-- Submit button -->
+                        <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-primary" type="submit" name="action">Ingresar</button>
+                        </div>
+
+                    </form>
+                </div>
             </div>
         </div>
-    </form>
-</div>
+        <div class="col-3"></div>
+    </div>
+
+
+
+
 
 @endsection
