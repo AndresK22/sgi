@@ -71,9 +71,10 @@
 											@csrf
 
                         <div class="form-outline mb-5">
+													<label class="form-label" for="form2Example1">Correo Electronico</label>
+
                             <input id="email" name="email" type="email" value="{{ old('email') }}"
                                 class="form-control" required>
-                            <label class="form-label" for="form2Example1">Correo Electronico</label>
                             @if ($errors->has('email'))
                                 @error('email')
                                     <span class="helper-text">{{ $message }}</span>
@@ -83,9 +84,9 @@
 
                         <!-- Password input -->
                         <div class="form-outline mb-5">
+													<label class="form-label" for="password">Contrase&ntilde;a</label>
 
                             <input id="password" name="password" type="password" class="form-control" required>
-                            <label class="form-label" for="password">Contrase&ntilde;a</label>
                             @if ($errors->has('password'))
                                 @error('password')
                                     <span class="helper-text">{{ $message }}</span>

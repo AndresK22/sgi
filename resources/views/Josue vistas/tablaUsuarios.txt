@@ -23,6 +23,11 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.bootstrap5.min.css">
 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"  crossorigin="anonymous">
+
+<!-- Bootstrap -->
+
 
 <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -38,14 +43,9 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Compra de medicamentos</a>
+                        <a class="nav-link active" aria-current="page" href="#">Gestion Usuarios</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Venta de medicamentos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Rotacion Stock medicamentos</a>
-                    </li>
+
                 </ul>
                 <div class="d-flex">
                     <ul class="navbar-nav ml-auto">
@@ -63,51 +63,86 @@
         <br><br>
     </header>
     <main class="p-5">
-        <h4 class="text-center">Reporte de Rotacion de Stock Medicamentos</h4>
-        <table id="example" class="table table-striped" style="width:100%">
-            <thead class="table-dark">
-                <tr>
-                    <th>Nombre Medicamento</th>
-                    <th>Fecha Entrada</th>
-                    <th>Cantidad Entrada</th>
-                    <th>Fecha Salida</th>
-                    <th>Cantidad Salida</th>
-                </tr>
-            </thead>
-            <tbody>
+        <div class="row">
 
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Nombre Medicamento</th>
-                    <th>Fecha Entrada</th>
-                    <th>Cantidad Entrada</th>
-                    <th>Fecha Salida</th>
-                    <th>Cantidad Salida</th>
-                </tr>
-            </tfoot>
-        </table>
-<br>
-<br>
-<br>
-<hr>
-        <table id="example1" class="table table-striped" style="width:100%">
-            <thead class="table-dark">
-                <tr>
-                    <th>Nombre Medicamento</th>
-                    <th>Rotacion</th>
-                </tr>
-            </thead>
-            <tbody>
+            <div class="col-lg-12">
+                <h4 class="mb-3 ">Usuarios</h4>
+								<button type="button" class="btn btn-success">
+									<i class="fas fa-plus"></i> Agregar registro
+								</button>
+								
+                <hr>
+								<table class="table" style="width: 100%">
+									<thead class="table-dark">
+										<tr>
+													<th scope="col" class="text-center">#</th>
+													<th scope="col" class="text-center">Nombre</th>
+													<th scope="col" class="text-center">Correo</th>
+													<th scope="col" class="text-center">Opciones</th>
+											</tr>
+									</thead>
+									<tbody>
+											<tr>
+													<td scope="row" class="text-center">1</td>
+													<td class="text-center">Fatima Aguilar</td>
+													<td class="text-center">aa19012@ues.edu.sv</td>
+													<td class="text-center">
+															<button type="button" class="btn btn-primary">
+																	<i class="fas fa-edit"></i> Editar
+															</button>
+															<button type="button" class="btn btn-danger">
+																	<i class="fas fa-trash"></i> Eliminar
+															</button>
+													</td>
+											</tr>
+											<tr>
+													<td scope="row" class="text-center">1</td>
+													<td class="text-center">Josue Cruz</td>
+													<td class="text-center">cc19114@ues.edu.sv</td>
+													<td class="text-center">
+															<button type="button" class="btn btn-primary">
+																	<i class="fas fa-edit"></i> Editar
+															</button>
+															<button type="button" class="btn btn-danger">
+																	<i class="fas fa-trash"></i> Eliminar
+															</button>
+													</td>
+											</tr>
+											<tr>
+													<td scope="row" class="text-center">1</td>
+													<td class="text-center">Andres Henriquez</td>
+													<td class="text-center">hg19010@ues.edu.sv</td>
+													<td class="text-center">
+															<button type="button" class="btn btn-primary">
+																	<i class="fas fa-edit"></i> Editar
+															</button>
+															<button type="button" class="btn btn-danger">
+																	<i class="fas fa-trash"></i> Eliminar
+															</button>
+													</td>
+											</tr>
+											<tr>
+													<td scope="row" class="text-center">1</td>
+													<td class="text-center">Jorge Romero</td>
+													<td class="text-center">rg19041@ues.edu.sv</td>
+													<td class="text-center">
+															<button type="button" class="btn btn-primary">
+																	<i class="fas fa-edit"></i> Editar
+															</button>
+															<button type="button" class="btn btn-danger">
+																	<i class="fas fa-trash"></i> Eliminar
+															</button>
+													</td>
+											</tr>
+									</tbody>
+							</table>
+							
 
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Nombre Medicamento</th>
-                    <th>Rotacion</th>
-                </tr>
-            </tfoot>
-        </table>
+            </div>
+            
+        </div>
+
+        </div>
     </main>
 </body>
 <footer class="footer mt-auto py-3 bg-dark">
@@ -136,60 +171,6 @@
 <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
 
 
-<script>
-    $(document).ready(function() {
-        let table = $('#example').DataTable({
-            dom: 'Bfrtip',
-            ajax: '{{ asset('json/detalle_entradas.json') }}',
-            buttons: [
-                'copy', 'csv', 'excel', 'pdf', 'print'
-            ],
-            columnDefs: [{
-                    "type": "date",
-                    "targets": 3
-                },
-                {
-                    "type": "date",
-                    "targets": 1
-                },
-            ],
-            searchBuilder: true,
-            columns: [{
-                    data: 'nombreMedicamento'
-                },
-                {
-                    data: 'fechaEntrada'
-                },
-                {
-                    data: 'cantidadEntrada'
-                },
-                {
-                    data: 'fechaSalida'
-                },
-                {
-                    data: 'cantidadSalida'
-                }
-            ]
-        });
-        table.searchBuilder.container().prependTo(table.table().container());
-    });
-</script>
-
-<script>
-    $(document).ready(function() {
-        let table1 = $('#example1').DataTable({
-            ajax: '{{ asset('json/rotacion.json') }}',
-            columns: [{
-                    data: 'nombreMedicamento'
-                },
-                {
-                    data: 'rotacion'
-                }
-            ]
-        });
-        table1.searchBuilder.container().prependTo(table1.table().container());
-    });
-</script>
 
 
 </html>

@@ -24,6 +24,12 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.bootstrap5.min.css">
 
 
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </symbol>
+</svg>
+
 <body class="d-flex flex-column h-100">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
@@ -38,14 +44,9 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Compra de medicamentos</a>
+                        <a class="nav-link active" aria-current="page" href="#">Gestion Usuarios</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Venta de medicamentos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Rotacion Stock medicamentos</a>
-                    </li>
+
                 </ul>
                 <div class="d-flex">
                     <ul class="navbar-nav ml-auto">
@@ -63,51 +64,75 @@
         <br><br>
     </header>
     <main class="p-5">
-        <h4 class="text-center">Reporte de Rotacion de Stock Medicamentos</h4>
-        <table id="example" class="table table-striped" style="width:100%">
-            <thead class="table-dark">
-                <tr>
-                    <th>Nombre Medicamento</th>
-                    <th>Fecha Entrada</th>
-                    <th>Cantidad Entrada</th>
-                    <th>Fecha Salida</th>
-                    <th>Cantidad Salida</th>
-                </tr>
-            </thead>
-            <tbody>
+        <h4 class="text-center"></h4>
+        <div class="row g-5">
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-6">
+                <h4 class="mb-3">Editar usuario</h4>
+								<div class="alert alert-danger d-flex align-items-center" role="alert">
+									<svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+									<div>
+										Un ejemplo de alerta danger con un icono
+									</div>
+								</div>
+                <hr>
+                <form class="needs-validation" novalidate="">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="firstName" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                required="">
+                            <div class="invalid-feedback">
+                                Se requiere un nombre válido.
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="lastName" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                required="">
+                            <div class="invalid-feedback">
+                                Se requiere apellido válido.
+                            </div>
+                        </div>
 
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Nombre Medicamento</th>
-                    <th>Fecha Entrada</th>
-                    <th>Cantidad Entrada</th>
-                    <th>Fecha Salida</th>
-                    <th>Cantidad Salida</th>
-                </tr>
-            </tfoot>
-        </table>
-<br>
-<br>
-<br>
-<hr>
-        <table id="example1" class="table table-striped" style="width:100%">
-            <thead class="table-dark">
-                <tr>
-                    <th>Nombre Medicamento</th>
-                    <th>Rotacion</th>
-                </tr>
-            </thead>
-            <tbody>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="tu@example.com">
+                            <div class="invalid-feedback">
+                                Ingresa una dirección de correo electrónico válida para actualizaciones de envío.
+                            </div>
+                        </div>
 
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Nombre Medicamento</th>
-                    <th>Rotacion</th>
-                </tr>
-            </tfoot>
-        </table>
+
+                        <div class="row gy-3">
+                            <div class="col-md-6">
+                                <label for="cc-name" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="cc-name" placeholder=""
+                                    required="">
+                                <div class="invalid-feedback">
+                                    Se requiere el nombre en la tarjeta
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="cc-number" class="form-label">Confirma contraseña</label>
+                                <input type="password" class="form-control" id="cc-number" placeholder=""
+                                    required="">
+                                <div class="invalid-feedback">
+                                    Se requiere número de tarjeta de crédito
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr class="my-4">
+                        <button class="w-100 btn btn-success btn-lg" type="submit">Editar usuario</button>
+                </form>
+            </div>
+            <div class="col-lg-3">
+            </div>
+        </div>
+
+        </div>
     </main>
 </body>
 <footer class="footer mt-auto py-3 bg-dark">
@@ -136,60 +161,6 @@
 <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.colVis.min.js"></script>
 
 
-<script>
-    $(document).ready(function() {
-        let table = $('#example').DataTable({
-            dom: 'Bfrtip',
-            ajax: '{{ asset('json/detalle_entradas.json') }}',
-            buttons: [
-                'copy', 'csv', 'excel', 'pdf', 'print'
-            ],
-            columnDefs: [{
-                    "type": "date",
-                    "targets": 3
-                },
-                {
-                    "type": "date",
-                    "targets": 1
-                },
-            ],
-            searchBuilder: true,
-            columns: [{
-                    data: 'nombreMedicamento'
-                },
-                {
-                    data: 'fechaEntrada'
-                },
-                {
-                    data: 'cantidadEntrada'
-                },
-                {
-                    data: 'fechaSalida'
-                },
-                {
-                    data: 'cantidadSalida'
-                }
-            ]
-        });
-        table.searchBuilder.container().prependTo(table.table().container());
-    });
-</script>
-
-<script>
-    $(document).ready(function() {
-        let table1 = $('#example1').DataTable({
-            ajax: '{{ asset('json/rotacion.json') }}',
-            columns: [{
-                    data: 'nombreMedicamento'
-                },
-                {
-                    data: 'rotacion'
-                }
-            ]
-        });
-        table1.searchBuilder.container().prependTo(table1.table().container());
-    });
-</script>
 
 
 </html>

@@ -1,0 +1,680 @@
+{
+    "data": [
+        {
+            "nombreMedicamento": "DERMOXIDO HUNGUENTO 12G",
+            "rotacion": "10"
+        },
+        {
+            "nombreMedicamento": "VITAMINA E BLISTER X 10 CAPSULA",
+            "rotacion": "0.5"
+        },
+        {
+            "nombreMedicamento": "RABANO YODADO 240 ML SABOR CANELA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "COMPLEJO B MORAZAN BLISTER X 20 TABLETA",
+            "rotacion": "1.5"
+        },
+        {
+            "nombreMedicamento": "VITASIL OMEGA 3 CAJA POR 50 CAPSULA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "AMINOCEE 15ML GOTAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "NEURO MENTAL B12 CAJA X 21 SACHET",
+            "rotacion": "0.1111"
+        },
+        {
+            "nombreMedicamento": "TOTALVIT KID JARABE 120ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "SECNIDASOL TABLETAS 500 MG CAJA X4 TABLETAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "CIKRASEL CREMA 30G",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "FUSIMED 2% CREMA 15G",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "QUEMADIN UNGUENTO 15G",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "SUCRASSYL SOBRE 6G",
+            "rotacion": "0.0742"
+        },
+        {
+            "nombreMedicamento": "TRINOACTIN SOBRE 5ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "IBUKEN SUSPENSION 100ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ACETAMINOFEN FD JARABE 120ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "PALAGRIP UNGUENTO",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "VICK UNGUENTO 12G",
+            "rotacion": "0.0455"
+        },
+        {
+            "nombreMedicamento": "CREMA COMBINADA ROJA 20G",
+            "rotacion": "0.0421"
+        },
+        {
+            "nombreMedicamento": "CALAMINA MENTOLADA 120 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TRINOGEL SUSPENSION ORAL VARIEDAD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "PENICILINA UNGUENTO 11G",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "MASCARILLA QUIRURGICA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "SERTAL COMPUESTO TABLETA",
+            "rotacion": "0.0368"
+        },
+        {
+            "nombreMedicamento": "LORATADINA SAIMED TABLETA",
+            "rotacion": "0.0286"
+        },
+        {
+            "nombreMedicamento": "LORATADINA ANPHAR TABLETA",
+            "rotacion": "1.4895"
+        },
+        {
+            "nombreMedicamento": "ANTIFLUDES TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "VIROGRIP GEL PM SOBRE X 2",
+            "rotacion": "0.0359"
+        },
+        {
+            "nombreMedicamento": "VIROGRIP GEL AM SOBRE X2",
+            "rotacion": "0.0567"
+        },
+        {
+            "nombreMedicamento": "VIROGRIP TE PM",
+            "rotacion": "0.1250"
+        },
+        {
+            "nombreMedicamento": "VIROGRIP TE AM",
+            "rotacion": "0.1280"
+        },
+        {
+            "nombreMedicamento": "NOVALGINA TABLETA 500MG",
+            "rotacion": "0.0410"
+        },
+        {
+            "nombreMedicamento": "PALAGRIP AM SOBRE X 2 TABLETAS",
+            "rotacion": "0.0376"
+        },
+        {
+            "nombreMedicamento": "PALAGRIP PM SOBRE X 2 TABLETAS",
+            "rotacion": "0.0321"
+        },
+        {
+            "nombreMedicamento": "IBUWING PLUS GEL",
+            "rotacion": "0.0414"
+        },
+        {
+            "nombreMedicamento": "DICLOFENACO POTASICO ANPHAR TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TAMTUM TABLETAS",
+            "rotacion": "2.5"
+        },
+        {
+            "nombreMedicamento": "DICLOFENACO SODICO",
+            "rotacion": "0.0444"
+        },
+        {
+            "nombreMedicamento": "DICLORFLEX TABLETA",
+            "rotacion": "0.0335"
+        },
+        {
+            "nombreMedicamento": "PARACETAMOL 750 FD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "UBUPROFENO 40MG MK TABLETA",
+            "rotacion": "0.1194"
+        },
+        {
+            "nombreMedicamento": "IBUPROFENO MK 600 MG TABLETAS",
+            "rotacion": "0.9730"
+        },
+        {
+            "nombreMedicamento": "ACETAMINOFEN MK 500 MG TABLETA",
+            "rotacion": "2.05"
+        },
+        {
+            "nombreMedicamento": "ACICLOVIR 400MG TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "DIMENHIDRINATO 50MG TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "LOPERAMIN CON NEOMICINA CAPSULA",
+            "rotacion": "0.0454"
+        },
+        {
+            "nombreMedicamento": "INTESTINOMICINA AD+ CAPSULAS",
+            "rotacion": "0.0301"
+        },
+        {
+            "nombreMedicamento": "UROFIN NF TABLETAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ANADENT TD SOBRE X2",
+            "rotacion": "0.0368"
+        },
+        {
+            "nombreMedicamento": "OMEPRAZOL 20 MG SAIMED CAPSULAS",
+            "rotacion": "0.0402"
+        },
+        {
+            "nombreMedicamento": "BUSCAPINA TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ANARA TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "CLORFENIRAMINA GAMMA 8 MG TABLETAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "METOCARBAMOL SELECTPHARMA TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "DOLOTRINOVIT TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "METOCARBAMOL GAMMA TABLETA",
+            "rotacion": "0.0714"
+        },
+        {
+            "nombreMedicamento": "AMBROXOL LV JARABE 15MG /5ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "AMBROKEM JARABE 120ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "BRONCOLEXIL JARABE 120ML",
+            "rotacion": "0.5"
+        },
+        {
+            "nombreMedicamento": "FLUYTOSS JARABE 120ML",
+            "rotacion": "0.1111"
+        },
+        {
+            "nombreMedicamento": "EUCAMIEL JARABE 120ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "PALAGRIP JARABE 120ML",
+            "rotacion": "0.1"
+        },
+        {
+            "nombreMedicamento": "VITATOS 4X4 JARABE 120ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "DOLOGRIP PM MAXIMA ACCION JARABE",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "COLIPAX NF TABLETAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "DOLOCRIM CREMA SACHET",
+            "rotacion": "0.1707"
+        },
+        {
+            "nombreMedicamento": "DOLOFIN RAPIDA ACCION TABLETAS",
+            "rotacion": "0.0351"
+        },
+        {
+            "nombreMedicamento": "DOLOFIN AR TABLETAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "DOLOFIN FLEX TABLETAS",
+            "rotacion": "0.0277"
+        },
+        {
+            "nombreMedicamento": "PANADOL SINUSITIS TABLETA SOBRE X2",
+            "rotacion": "0.0685"
+        },
+        {
+            "nombreMedicamento": "PANADOL EXTRA FUERTE TABLETA SOBRE X2",
+            "rotacion": "5.2"
+        },
+        {
+            "nombreMedicamento": "PANADOL NIÑOS TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ASPIRINA NIÑOS TABLETA",
+            "rotacion": "0.2563"
+        },
+        {
+            "nombreMedicamento": "ASPIRINA ADULTO TABLETA",
+            "rotacion": "0.9583"
+        },
+        {
+            "nombreMedicamento": "SALTS ANDREWS SACHETS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "DORIVAL GEL",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ALEVE TABLETA",
+            "rotacion": "2.1"
+        },
+        {
+            "nombreMedicamento": "SALVADOL MIGRAÑA SOBREX2 TABLETA",
+            "rotacion": "0.1163"
+        },
+        {
+            "nombreMedicamento": "FINADOL ULTRA TABLETA SOBREX2",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "PANADOL ULTRA TABLETA SOBREX2",
+            "rotacion": "0.0328"
+        },
+        {
+            "nombreMedicamento": "PANADOL MULTISINTOMAS TABLETA SOBREX2",
+            "rotacion": "0.0483"
+        },
+        {
+            "nombreMedicamento": "VITA C+ZIN FRUTAS MASTICABLE",
+            "rotacion": "0.0526"
+        },
+        {
+            "nombreMedicamento": "ALKASELTZER",
+            "rotacion": "0.0518"
+        },
+        {
+            "nombreMedicamento": "ALKASELTZER BOOST TABLETA",
+            "rotacion": "0.0965"
+        },
+        {
+            "nombreMedicamento": "ALKAAD TABLETA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "BAYKID TABLETAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ALKAGASTRIC TABLETAS MASTICABLES",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TABCIN GRIPE Y TOS GEL CAPSULA X PAR",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TABCIN FLEMA Y CONGESTION GEL CAPSULAX2",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TABCIN NIÑOS EFERVECENTE",
+            "rotacion": "7.0"
+        },
+        {
+            "nombreMedicamento": "TABCIN CELESTE EFERVECENTE",
+            "rotacion": "0.0956"
+        },
+        {
+            "nombreMedicamento": "TABCIN GRIPE Y TOS EFERVECENTE",
+            "rotacion": "0.1086"
+        },
+        {
+            "nombreMedicamento": "PULMOCALCIO CARAMELOS",
+            "rotacion": "16.0"
+        },
+        {
+            "nombreMedicamento": "ZORRITONE CARAMELO JENGIBRE",
+            "rotacion": "0.0784"
+        },
+        {
+            "nombreMedicamento": "ZORRITONE CARAMELO MENTHOL",
+            "rotacion": "0.0365"
+        },
+        {
+            "nombreMedicamento": "ARTRIBION TABLETA SOBREX4",
+            "rotacion": "0.0582"
+        },
+        {
+            "nombreMedicamento": "GARGANTINAS SOBRE X6",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ELECTROLITE MORA AZUL",
+            "rotacion": "0.0952"
+        },
+        {
+            "nombreMedicamento": "ELECTROLITE LIMA LIMON",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ELECTROLITE FRESA KIWI",
+            "rotacion": "0.1"
+        },
+        {
+            "nombreMedicamento": "ELECTROLITE MANZANA",
+            "rotacion": "0.5"
+        },
+        {
+            "nombreMedicamento": "ELECTROLITE UVA",
+            "rotacion": "0.0714"
+        },
+        {
+            "nombreMedicamento": "ORALDEX FRESA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ORALECTRIL DIABETICO NARANJA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "SUERO ANCALMO VARIEDAD SOBRE",
+            "rotacion": "0.0462"
+        },
+        {
+            "nombreMedicamento": "BICARBONATO DE SODIO AINSA TARRO 300G",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "BANDITAS CUREBAND UNIDAD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "HISOPO DE MADERA PAQUETE X 100",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ALGODON MIGASA PAQUETE 25G",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ALGODON PROMEDIC PAQUETE 2 1/2G",
+            "rotacion": "0.8889"
+        },
+        {
+            "nombreMedicamento": "GASA MIGASA 4 X 10 \" ROLLO",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "MICROPORE NEXCARE 2.5CM X 9.1 M",
+            "rotacion": "0.0455"
+        },
+        {
+            "nombreMedicamento": "AGUA OXIGENADA FALMAR 120 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "MERTIOLATO 30ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "JERINGA NIPRO 3ML UNIDAD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "JERINGA NIPRO 1ML INSULINA UNIDAD",
+            "rotacion": "1.5"
+        },
+        {
+            "nombreMedicamento": "ALCOHOL 120ML",
+            "rotacion": "2"
+        },
+        {
+            "nombreMedicamento": "JERINGA NIPRO 5ML UNIDAD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "BABYSIL SACHET 5G",
+            "rotacion": "0.3714"
+        },
+        {
+            "nombreMedicamento": "TOALLAS HUMEDAS RB X40",
+            "rotacion": "0.5"
+        },
+        {
+            "nombreMedicamento": "CLOTRIPLEX POMADA 12.5G",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TOALLA SABA CLASICA SIN ALAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TOALLA SABA CLASICA CON ALAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TOALLA SABA INVISIBLE CON ALAS X10",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "PROTECTOR DIARIO SILUETA PAQUETE X12",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "CONDONES VIVE ORIGINAL PAQUETE X3",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "AMOXICILINA MK 500",
+            "rotacion": "0.0093"
+        },
+        {
+            "nombreMedicamento": "TOSSIMAT ANTITUSIVO 120 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "COLONIA BABY BLUE 220 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "PULMOGRIP BALSAMICO CAJA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "FOSKROL 25 AMPOLLA 2 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TIAMINA PL EXTRA FUERTE VIAL 10 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "COMPLEJO B FUERTE PL CON VITAMINA B12 VIAL 10 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "VITAMINA B12 FUERTE NUEVA FORMULA VIAL 10 ML",
+            "rotacion": "0.2353"
+        },
+        {
+            "nombreMedicamento": "DOLONEUROBION SOLUCION INYECTABLE 3 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "IRBESARTAN 150 MG BLISTER",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ENALAPRIL 20 MG BLISTER",
+            "rotacion": "0.0526"
+        },
+        {
+            "nombreMedicamento": "LOSARTAN 50 MG BLISTER",
+            "rotacion": "0.1111"
+        },
+        {
+            "nombreMedicamento": "GASA 3\" X 3\" UNIDAD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "MASCARILLA QUIRURGICA NEGRA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "LANSOPRAZOL SAIMED CAPSULA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "SIMETICONA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "DOLARTRIN BLISTER X4 CAPSULAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ELECTROLITE COCO",
+            "rotacion": "2"
+        },
+        {
+            "nombreMedicamento": "ELECTROLITE FRESA",
+            "rotacion": "2.5"
+        },
+        {
+            "nombreMedicamento": "Fludazol (Fluconazol) x 2 tab",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "PEPTO BISMOL TABLETAS",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "AEROOM SIMETICONA 40 MG TABLETA",
+            "rotacion": "1.2"
+        },
+        {
+            "nombreMedicamento": "NERVOTIAMIN",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "METFORMINA ECOMED",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ELECTROLIT NARANJA MANDARINA",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "VIRO GRIP JARABE GRIPR Y TOS",
+            "rotacion": "0.3333"
+        },
+        {
+            "nombreMedicamento": "TEVIRIN GOTAS 5ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "CUREBAND MICROPORE 2\"",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "CLOVIREX ACICLOVIR 400MG",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ACETAMINOFEN 500MG ECOMED",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "CUREBAND GASA 10X10",
+            "rotacion": "0.1901"
+        },
+        {
+            "nombreMedicamento": "RABANO YODADO LOPEZ",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "JERINGA 3ML UNIDAD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "JERINGA NIPRO 10ML UNIDAD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "MIGASA 3\"X3\"",
+            "rotacion": "0.0949"
+        },
+        {
+            "nombreMedicamento": "LEMOVIT PLUS ANTIGRIPAL",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "DRAMANYL CAPSULA 50MG",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "ALGODON PROMEDICI PAQUETE 25G",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "CLORFENIRAMINA JARABE FD",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "CLORFENIRAMINA SAIMED 4MG",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "FORTIPLEX VIAL 10 ML",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "AZITROMICINA TABLETAS 500 MG",
+            "rotacion": "1.0"
+        },
+        {
+            "nombreMedicamento": "TABCIN NIÑOS MASTICABLE",
+            "rotacion": "1.0"
+        }
+    ]
+}
