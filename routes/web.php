@@ -48,3 +48,8 @@ Route::group(['middleware' => ['role:administrador']], function () {
     //Eliminar
     Route::get('user/destroy/{user}/{rol}', [UserController::class,'destroy'])->name('user.destroy')->middleware('auth');
 });
+
+//------------------------------------Reportes-------------------------------------
+Route::view('reporteentradas', 'reportes.reporteEntradas')->middleware('auth');
+//Route::get('/reporteentradas', [EntradaMedicamentoController::class, 'reporteEntradas'])->middleware('auth');
+Route::get('/jsonReporteEntradas', [EntradaMedicamentoController::class, 'reporteEntradas']);
